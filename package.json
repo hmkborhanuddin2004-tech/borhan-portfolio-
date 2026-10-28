@@ -1,0 +1,19 @@
+{
+  "name": "heynesh-exact-dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exact reverse-engineered development environment for heynesh.com with GSAP 3.15, Lenis, and Swiper",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "lenis": "^1.1.18",
+    "swiper": "^14.3.0"
+  }
+}

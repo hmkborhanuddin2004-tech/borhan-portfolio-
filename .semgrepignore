@@ -1,0 +1,13 @@
+# Third-party vendor libraries
+assets/js/jquery*
+assets/js/webflow*
+assets/js/*.min.js
+assets/js/lenis*
+assets/js/swiper*
+public/assets/js/jquery*
+public/assets/js/webflow*
+public/assets/js/*.min.js
+public/assets/js/lenis*
+public/assets/js/swiper*
+dist/
+node_modules/
