@@ -17,11 +17,11 @@ window.CUSTOM_PROFILE = {
   status: "Available for Q1 / Q2 Projects",
   location: "Dhaka, Bangladesh (Serving Global Clients)",
   socials: {
-    linkedin: "https://www.linkedin.com/in/hmkborhanuddin/",
-    twitter: "https://x.com/borhan_dev",
-    github: "https://github.com/hmkborhanuddin2004",
-    telegram: "https://t.me/borhan_dev",
-    facebook: "https://www.facebook.com/people/HMk-Borhan-Uddin/100069639075719/"
+    whatsapp: "https://wa.me/8801610201795",
+    linkedin: "https://www.linkedin.com/in/borhan-uddin-76bb1b43b/",
+    github: "https://github.com/hmkborhanuddin2004-tech",
+    telegram: "https://t.me/borhanuddinkhan2004",
+    facebook: "https://www.facebook.com/share/14uStBNq3rt/"
   },
   // 📲 Instant Lead Dispatch Webhook (Optional: Telegram Bot / WhatsApp Webhook URL)
   // When a client sends a message in "Direct WhatsApp", it automatically POSTs to this webhook!
@@ -66,6 +66,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 5. Update Social Links
   if (p.socials) {
+    if (p.socials.whatsapp) {
+      document.querySelectorAll('a[href*="wa.me"]').forEach(el => {
+        el.href = p.socials.whatsapp;
+      });
+    }
     if (p.socials.linkedin) {
       document.querySelectorAll('a[href*="linkedin.com"]').forEach(el => {
         el.href = p.socials.linkedin;
